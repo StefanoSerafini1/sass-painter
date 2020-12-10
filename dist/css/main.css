@@ -13,7 +13,95 @@ body {
   min-width: 100%;
 }
 
-li {
+ul {
   list-style: none;
+}
+
+header {
+  background-color: #000;
+}
+
+header .headertot {
+  width: 64%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header .headertot .top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 50%;
+}
+
+header .headertot .top-header .listenav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+header .headertot .top-header .listenav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+header .headertot .top-header .listenav ul li {
+  color: grey;
+  padding: 10px;
+}
+
+header .headertot .top-header .listenav ul li i {
+  color: #009cff;
+  margin-right: 10px;
+}
+
+header .headertot .top-header .listenav ul select {
+  padding: 5px;
+}
+
+header .headertot .bottom-header {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 115%;
+}
+
+header .headertot .bottom-header .logo {
+  width: 10%;
+  height: 100%;
+  cursor: pointer;
+}
+
+header .headertot .bottom-header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 14px;
+}
+
+header .headertot .bottom-header .navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+header .headertot .bottom-header .navbar ul li {
+  padding: 15px 25px;
 }
 

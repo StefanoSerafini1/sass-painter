@@ -1,0 +1,85 @@
+header {
+    background-color: $black;
+
+    .headertot{
+        width: 64%;
+        height: 100%;
+        margin: 0 auto;
+
+        .top-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            flex-wrap: nowrap;
+            height: 50%;
+
+            .listenav {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: nowrap;
+                ul {
+                    list-style: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: nowrap;
+
+                    li {
+                        color: $grey;
+                        padding: 10px;
+
+                        i {
+                            color: $blue;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    select {
+                        padding: 5px; 
+                    }
+                }
+            }
+        }
+        .bottom-header {
+            color: $white;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 115%;
+
+            .logo {
+                width: 10%;
+                height: 100%;
+                cursor: pointer;
+            }
+
+            .navbar {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: nowrap;
+                font-size: $base-font;
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: nowrap;
+
+                    li {
+                        padding: 15px 25px;
+                    }
+                }
+            }
+        }
+    }
+}
