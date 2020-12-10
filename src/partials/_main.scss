@@ -1,0 +1,175 @@
+.main {
+
+    height: 450px;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    background-size: cover;
+    background-position: center;
+    .primobanner {
+        width: 56%;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        .primobanner-left {
+            color: $white;
+            width: 45%;
+            height: 80%;
+            margin-right: 53px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            h2 {
+                font-size: 1.8em;
+                font-weight: 400;
+            }
+
+            h3 {
+                font-size: 1.5em;
+                font-weight: 400;
+            }
+            li {
+                margin-bottom: 10px;
+                font-weight: 400;
+            }
+            span {
+                color: $grey;
+                margin: 5px;
+            }
+            button {
+                width: 200px;
+                color:$white;
+                background-color:$grey;
+                font-size: 1em;
+                padding: 10px 20px;
+                border-radius: 0;
+                border: 0;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .primobanner-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            width: 35%;
+            height: 90%;
+            background-color: $black;
+            padding: 10px;
+
+            .primobanner-price {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                height: 30%;
+                padding: 20px;
+
+                .primobanner-money {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    flex-wrap: nowrap;
+                    h3 {
+                        color: $white;
+                        font-size: 1.5em;
+                    }
+
+                    h4 {
+                        color: $grey;
+                        font-size: 1em;
+                        font-weight: 300;
+                    }
+                }
+
+                button {
+                    width: 50%;
+                    color: white;
+                    background-color: blue;
+                    font-size: 1.2em;
+                    padding: 10px 20px;
+                    border-radius: 0;
+                    border: 0;
+                    cursor: pointer;
+    
+                    &:hover {
+                        opacity:(0.8);
+                    }
+                }
+            }
+
+            .primobanner-limited {
+                margin: 90px auto;
+                width: 90%;
+                background-color: $lightgrey;
+                padding: 10px;
+                h3 {
+                    font-size: 1.2em;
+                    font-weight: 400;
+                }
+                p {
+                    font-size: 0.8em;
+                    font-weight: 300;
+                }
+                span {
+                    font-size: 0.9em;
+
+                    a {
+                        text-decoration: none;
+                        color: $lightblue;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-seconda {
+        height: 50px;
+        background-color: $lightgrey;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+        .fissa-navbar {
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+            ul {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: nowrap;
+            }
+            li {
+                font-size: 18px;
+                color: $grey;
+                display: inline-block;
+                padding: 10px;
+                margin-right: 20px;
+
+                &:hover {
+                    color: $black;
+                    background-color: $white;
+                }
+            }
+
+        }
+        
+    }
+}

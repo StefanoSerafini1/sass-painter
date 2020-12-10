@@ -105,3 +105,189 @@ header .headertot .bottom-header .navbar ul li {
   padding: 15px 25px;
 }
 
+.main {
+  height: 450px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main .primobanner {
+  width: 56%;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main .primobanner .primobanner-left {
+  color: #fff;
+  width: 45%;
+  height: 80%;
+  margin-right: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.main .primobanner .primobanner-left h2 {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+.main .primobanner .primobanner-left h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.main .primobanner .primobanner-left li {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.main .primobanner .primobanner-left span {
+  color: grey;
+  margin: 5px;
+}
+
+.main .primobanner .primobanner-left button {
+  width: 200px;
+  color: #fff;
+  background-color: grey;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: 0;
+}
+
+.main .primobanner .primobanner-left button:hover {
+  opacity: 0.8;
+}
+
+.main .primobanner .primobanner-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 35%;
+  height: 90%;
+  background-color: #000;
+  padding: 10px;
+}
+
+.main .primobanner .primobanner-right .primobanner-price {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30%;
+  padding: 20px;
+}
+
+.main .primobanner .primobanner-right .primobanner-price .primobanner-money {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.main .primobanner .primobanner-right .primobanner-price .primobanner-money h3 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.main .primobanner .primobanner-right .primobanner-price .primobanner-money h4 {
+  color: grey;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.main .primobanner .primobanner-right .primobanner-price button {
+  width: 50%;
+  color: white;
+  background-color: blue;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.main .primobanner .primobanner-right .primobanner-price button:hover {
+  opacity: 0.8;
+}
+
+.main .primobanner .primobanner-right .primobanner-limited {
+  margin: 90px auto;
+  width: 90%;
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.main .primobanner .primobanner-right .primobanner-limited h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.main .primobanner .primobanner-right .primobanner-limited p {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.main .primobanner .primobanner-right .primobanner-limited span {
+  font-size: 0.9em;
+}
+
+.main .primobanner .primobanner-right .primobanner-limited span a {
+  text-decoration: none;
+  color: #009cff;
+}
+
+.main .navbar-seconda {
+  height: 50px;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main .navbar-seconda .fissa-navbar {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main .navbar-seconda .fissa-navbar ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.main .navbar-seconda .fissa-navbar li {
+  font-size: 18px;
+  color: grey;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.main .navbar-seconda .fissa-navbar li:hover {
+  color: #000;
+  background-color: #fff;
+}
+
